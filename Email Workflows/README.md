@@ -46,7 +46,7 @@ The workflow is built on **n8n** and consists of the following components:
 
 **Sheikh Mohammad Ali Maheer**  
 *AI Automation Engineer & Full Stack Developer*  
-- [GitHub](https://github.com/maheer-codes)  
+- [GitHub](https://github.com/maheerCodes)  
 - [LinkedIn](https://linkedin.com/in/sheikh-mohammad-ali-maheer)  
 
 ---
