@@ -1,0 +1,24 @@
+{
+  "name": "sadia-ai-email-automation",
+  "version": "1.0.0",
+  "description": "Autonomous AI Email Assistant using n8n and Google Gemini 1.5 Flash to handle professional inquiries.",
+  "main": "EmailWorkflows.json",
+  "keywords": [
+    "n8n",
+    "ai-agent",
+    "gemini",
+    "automation",
+    "gmail-api",
+    "rag"
+  ],
+  "author": "Sheikh Mohammad Ali Maheer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maheerCodes/Email-Automation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maheerCodes/Email-Automation/issues"
+  },
+  "homepage": "https://github.com/maheerCodes/Email-Automation#readme"
+}
