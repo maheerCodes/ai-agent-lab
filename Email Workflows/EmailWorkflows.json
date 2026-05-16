@@ -1,6 +1,6 @@
 {
   "name": "EmailWorkflows(Credit-Sheikh_Mohammad_Ali_Maheer)",
-  "nodes": [
+  "nodes": [ 
     {
       "parameters": {
         "modelName": "models/gemini-flash-lite-latest",
