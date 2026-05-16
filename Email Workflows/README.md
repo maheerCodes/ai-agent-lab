@@ -7,13 +7,16 @@ Sadia is a sophisticated AI-powered Email Assistant designed to handle professio
 -   **Autonomous Decision Making:** Uses Google Gemini to understand client intent and call tools as needed.
 -   **Dynamic Database (RAG):** Fetches real-time pricing and service details from Google Sheets.
 -   **Context-Aware Conversation:** Maintains thread memory (using Thread IDs) to handle follow-up emails seamlessly.
--   **Multilingual Support:** Automatically detects the sender's language (Bangla, English, Banglish) and mirrors their tone.
+-   **Multilingual Support:** Automatically detects the sender's language (Bangla, English, Banglish) and mirrors their tone. 
 -   **Safety & Filtering:** Built-in safety logic to handle inappropriate language or off-topic queries professionally.
 -   **Structured JSON Output:** Custom JavaScript formatting to ensure email replies are sent in clean, professional HTML.
 
 ## 🏗️ Technical Architecture
 
-The workflow is built on **n8n** and consists of the following components:
+The workflow is built on **n8n** and follows a modular architecture:
+
+![Sadia AI Workflow Architecture](Assets/Image/workflow-screenshot.png)
+
 1.  **Gmail Trigger:** Polls for new messages and triggers the workflow.
 2.  **Filter Node:** Prevents looping and handles internal email routing.
 3.  **AI Agent (Brain):** Powered by Google Gemini 1.5 Flash with custom system prompts.
@@ -28,7 +31,7 @@ The workflow is built on **n8n** and consists of the following components:
 -   **LLM Model:** Google Gemini 1.5 Flash
 -   **Database:** Google Sheets (as a searchable knowledge base)
 -   **Email Integration:** Gmail API
--   **Programming:** JavaScript
+-   **Programming:** JavaScript 
 
 ## 📂 Project Structure
 
@@ -44,7 +47,7 @@ The workflow is built on **n8n** and consists of the following components:
 
 ## 👨‍💻 Developed By
 
-**Sheikh Mohammad Ali Maheer**  
+**Sheikh Mohammad Ali Maheer** 
 *AI Automation Engineer & Full Stack Developer*  
 - [GitHub](https://github.com/maheerCodes)  
 - [LinkedIn](https://linkedin.com/in/sheikh-mohammad-ali-maheer)  
